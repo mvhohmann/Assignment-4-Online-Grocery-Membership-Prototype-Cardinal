@@ -10,12 +10,10 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
-using Moq;
 using Xunit;
-using Assignment_4_Online_Grocery_Membership_Prototype_Cardinal.Pages;
-using Assignment_4_Online_Grocery_Membership_Prototype_Cardinal.Data;
+using Assignment_4;
 
-namespace Assignment_4_Online_Grocery_Membership_Prototype_Cardinal.Tests.UnitTests
+namespace Assignment_4.Tests.UnitTests
 {
     public class IndexPageTests
     {
