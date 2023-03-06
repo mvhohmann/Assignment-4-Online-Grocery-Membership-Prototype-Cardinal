@@ -1,0 +1,63 @@
+@page
+@model RestaurantHomeModel
+@{
+    ViewData["Title"] = "Restaurant Home";
+}
+<head>
+    <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+        background-color: #dddddd;
+        }
+    </style>
+</head>
+<div class="text-center">
+    <h1 class="display-4">Welcome Restaurants</h1>
+    <h3>Manage Orders</h3>
+    <table>
+        <tr>
+            <th>Order Number</th>
+            <th>Name</th>
+            <th>Restaurant</th>
+            <th>Order Type</th>
+            <th>Description</th>
+            <th>Order placed?</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Ben Kriegs</td>
+            <td>McDonalds</td>
+            <td>Pickup</td>
+            <td>1 Big Mac, 1 Large French Fry</td>
+            <td><button onclick="alert('Pickup Confirmed')">Pickup</button></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Fernando Cota</td>
+            <td>Taco Bell</td>
+            <td>Pickup</td>
+            <td>2 Crunchwrap Supreme, 1 Beefy Melt Burrito</td>
+            <td><button onclick="alert('Pickup Paid & Confirmed')">Pickup</button></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Ronny Stevens</td>
+            <td>Chick-Fil-A</td>
+            <td>Delivery</td>
+            <td>2 Chick-fil-A Chicken Sandwich, 1 Small Chick-fil-A Waffle Potato Fries</td>
+            <td><button onclick="alert('Delivery Paid & Confirmed. Alerting driver when order is ready to be delivered.')">Delivery</button></td>
+        </tr>
+    </table>
+    <h3>Enjoy your order!</h3>
+</div>

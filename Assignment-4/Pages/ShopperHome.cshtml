@@ -1,0 +1,26 @@
+@page
+@model ShopperHomeModel
+@{
+    ViewData["Title"] = "Shopper Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Shoppers</h1>
+    <p>Select Restaurant</p>
+    <form method="post" asp-page-handler="ResturantSelect">
+        <div class="form-group">
+            <select name="RestaurantChoice" asp-items="Model.RestaurantChoices" asp-for="RestaurantChoice" onchange="this.form.submit();">
+                <option value="">Select a Restaurant</option>
+            </select>
+        </div>
+    </form>
+    <p>Select Menu Items</p>
+    <form method="post" asp-page-handler="MenuSelect">
+        <div class="form-group">
+            <select multiple name="MenuItemsChoice" asp-items="Model.MenuItemsChoices"></select>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Order" class="btn btn-primary" onclick="alert('Order Confirmed')"/>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,1 @@
+For assignment 2 we split up the work and I had to do the restuarants page, while Dillon had the driver page and Marc had the shoppers page. A disadvantage I had was having to reinstall visual studio code and relearing the program since last semester.

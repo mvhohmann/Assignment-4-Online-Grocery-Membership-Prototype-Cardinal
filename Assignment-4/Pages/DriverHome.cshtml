@@ -1,0 +1,58 @@
+@page
+@model DriverHomeModel
+@{
+    ViewData["Title"] = "Driver Home";
+}
+<head>
+    <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
+        }
+    </style>
+</head>
+<div class="text-center">
+    <h1 class="display-4">Welcome Drivers</h1>
+    <h3>Available Orders</h3>
+    <table>
+        <tr>
+            <th>Order Number</th>
+            <th>Name</th>
+            <th>Restaurant Address</th>
+            <th>Order Address</th>
+            <th>Pickup order?</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Susan Wojcicki</td>
+            <td>901 Cherry Avenue, San Bruno</td>
+            <td>1150 El Camino Real #197, San Bruno</td>
+            <td><button onclick="alert('Pickup Confirmed')">Pickup</button></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Dillon Ewing</td>
+            <td>1234 College Rd, College Park</td>
+            <td>4312 Chipotle Rd, College Park</td>
+            <td><button onclick="alert('Pickup Confirmed')">Pickup</button></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Kevin Bacon</td>
+            <td>5678 Kevin St, Bacon Town</td>
+            <td>8765 Donald St, Bacon Town</td>
+            <td><button onclick="alert('Pickup Confirmed')">Pickup</button></td>
+        </tr>
+    </table>
+</div>

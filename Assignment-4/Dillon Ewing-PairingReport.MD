@@ -1,0 +1,2 @@
+For this assignment we split up the work load and I did the DriverHome part of the application.
+An advantage I had is I have more confortable with front end development, while a disadvantage is I am less comfortable with back end. 
