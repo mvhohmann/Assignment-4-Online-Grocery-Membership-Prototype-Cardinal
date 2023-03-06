@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Assignment-4-Online-Grocery-Membership-Prototype-Cardinal\Assignment-4-Online-Grocery-Membership-Prototype-Cardinal.csproj" />
+    <ProjectReference Include="..\Assignment-4\Assignment-4-Online-Grocery-Membership-Prototype-Cardinal.csproj" />
   </ItemGroup>
 
 </Project>
