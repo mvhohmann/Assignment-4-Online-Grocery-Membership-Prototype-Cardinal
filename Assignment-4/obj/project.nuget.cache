@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q2qqe1cw5KI/ELCx9lxmA4cg/++zf150NiCeoAVZbBpcGW3Mu2Voi7e1fOV02GzEwlrWS3LRT6jV5xjW3tNItA==",
+  "dgSpecHash": "zczwMI0k5AP6HtXk1xEAh+R4xR8u/2YweAhg7s/JKpdYepUJ9cCakHLUrXCZmkGVAViUrRIb0O5zHEHU9UDEUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alpha\\Desktop\\s\\SSD\\Assignment-2---Online-Grocery-Membership-Prototype-Cardinal-\\Assignment-2---Online-Grocery-Membership-Prototype-Cardinal-.csproj",
+  "projectFilePath": "C:\\Users\\Alpha\\Desktop\\s\\SSD\\Assignment-4-Online-Grocery-Membership-Prototype-Cardinal-1\\Assignment-4\\Assignment-4-Online-Grocery-Membership-Prototype-Cardinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alpha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Alpha\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.2\\microsoft.data.sqlite.core.7.0.2.nupkg.sha512",
